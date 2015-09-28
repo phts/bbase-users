@@ -37,7 +37,7 @@ range.each do |id|
 
     request = Net::HTTP::Get.new uri.request_uri
     request.basic_auth(@config['login'], @config['password'])
-    request.add_field("Cookie", "ASPSESSIONIDQCSADABD=#{@config['aspsessionidqcsadabd']}")
+    request.add_field("Cookie", "#{@config['aspsessionid_key']}=#{@config['aspsessionid_value']}")
 
     response = http.request request
 

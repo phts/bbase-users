@@ -2,7 +2,8 @@
 secret_url: everybody knows this URL :)
 login: login
 password: password
-aspsessionidqcsadabd: ASPSESSIONIDQCSADABD token from request's cookies (use browser developer tools to inspect the http request)
+aspsessionid_key: session id key from request's cookies e.g. ASPSESSIONIDQCSADABD (use browser developer tools to inspect the http request)
+aspsessionid_value: session id value from request's cookies
 from: 1
 to: 9999
 start_date: 21.09.2015 (optional)
